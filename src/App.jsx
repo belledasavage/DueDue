@@ -1,7 +1,6 @@
 import "./App.css";
 import { useState } from 'react';
-
-
+import ListAdder from "./components/listAdder";
 
 
 function App(props) {
@@ -26,7 +25,7 @@ function App(props) {
           Click me!
 
         </button>
-
+          <ListAdder/>
       </header>
     </>
   );
